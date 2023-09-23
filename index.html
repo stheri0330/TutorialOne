@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Simone's Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="Style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src=""></script>
+<body>
+
+ 
+<img src="Images/skeletonPic2.jpg" alt="LA" style="width:100%">
+
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+    <a href="#about-me">About Me</a>
+  <a href="#work">Work Experience</a>
+  <a href="#contact-me">Contact Me</a>
+</div>
+
+
+<div class="">
+ <h1>My Portfolio</h1>
+ <p>email: stheri@uwo.ca</p>
+ <p>My portfolio will showcase my abilities in HTML and CSS</p>
+</div>
+
+
+<div class="hero-image">
+  <div class="hero-text">
+	<h1 id="about-me"></h1>
+    <h2>I am Simone Theriult</h2> <!--Placing here for formatting -->
+    <p>And I am a software engineering student at Western University  </p>
+    <button>Download Resume</button>
+  </div>
+</div>
+
+<div class="about-section">
+  <h1>About Me</h1>
+  <p>I am a second year student in software engineering at Western Univerity of Ontario. I chose software becuase it peaked my interest the most in first year. Also because my mom is an engineer and my dad works in IT.</p>
+  <p>Outside of school I love to sew.  I thrift fabrics and old clothes to upcycle them into my own creations. I also njoy being active, I play volleyball and love going to the gym!</p>
+</div>
+
+
+<h1 id="work"></h1>
+<h2 style="text-align:center">My Work Experience</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/Images/magna.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>First Year Summer Co-op</h2>
+        <p class="title">Magna International - Integram Windsor Seating Division</p>
+        <p>Summer of 2023 I landed an IT co-op position at Magna International Division Integram. I worked with software, computers, printers, and Build Monitors on the Assembly Line.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/Images/magna.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>EWSWA Finacial Work</h2>
+        <p class="title">Essex-Windsor Solid Waste Authority</p>
+        <p>Worked in office creating balance sheets, and income statement projections for the next year.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/Images/magna.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>Volleyball Coach</h2>
+        <p class="title">Sky and South County Bandits Volleyball</p>
+        <p>Coached volleytots for my 16,17 & 18U years.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h1 id="contact-me"></h1>
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>Swing by for a cup of coffee, or leave me a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Images/contactme.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #CC99FF;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>Simone's Portfolio</p>
+</div>
+
+
+</body>
+</html>
